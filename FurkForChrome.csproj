@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include=".gitattributes" />
     <None Include="manifest.json" />
     <Content Include="background.html" />
     <None Include="dev\jquery-1.7.2-vsdoc.js" />
