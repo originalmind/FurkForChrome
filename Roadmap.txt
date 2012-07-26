@@ -1,0 +1,7 @@
+Furk for Chrome Roadmap
+----------------------------
+
+Future 1.4+:
+* Auto-load Furk API key
+* More functionality in notification popup
+* Panel - show Finished/Active files
