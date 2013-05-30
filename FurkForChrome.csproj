@@ -67,6 +67,7 @@
     <Content Include="background.html" />
     <None Include="dev\jquery-1.7.2-vsdoc.js" />
     <Content Include="ChangeLog.txt" />
+    <Content Include="extlib\base32.js" />
     <Content Include="extlib\jquery-1.7.2.min.js" />
     <Content Include="lib\options.js" />
     <Content Include="LICENCE.txt" />
