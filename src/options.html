@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Furk for Chrome&trade; Options</title>
+    <link rel="stylesheet" type="text/css" href="style/options.css" />
+    <link href='style/font/PontanoSans-Regular.ttf' rel='stylesheet' type='text/css' />
+</head>
+<body id="options_body">
+    <div id="options" class="vignette">
+        <nav id="menu">
+        </nav>
+        <div id="header">
+            <img src="images/icon48.png" />
+            <h1>Furk for Chrome&trade;</h1>
+        </div>
+        <div id="content">
+            <section id="furk-account">
+                <h2>My Furk Account</h2>
+                <p class="instruction">
+                    If this is specified, you do not need to be logged in to Furk
+                    to use this extension.
+                </p>
+                <label>Furk API key:</label>
+                <input type="text" maxlength="64" id="furkForChrome_apiKey" size="64" />
+                <p>
+                    You can get your API key <a href="https://www.furk.net/t/api" target="_blank">here</a>
+                    (login first), 
+                or <a href="https://www.furk.net/login" target="_blank">login to Furk</a>, 
+                then <a id="a_findApiKey" href="#">click to
+                    autoload</a>.
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            <nav id="controls">
+                <button id="btn_close">Close</button>
+            </nav>
+        </div>
+    </div>
+    <script src="lib/FurkAPI.js" type="text/javascript"></script>
+    <script src="extlib/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="lib/options.js" type="text/javascript"></script>
+</body>
+</html>
+

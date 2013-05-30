@@ -30,9 +30,14 @@ You can optionally set your Furk API key in here to allow queueing to Furk witho
 The extension provides several useful ways to queue files to Furk:
 
 1. Right-click on any link with a URL that ends in .torrent
-2. Right-click on any torrent link in the following sites: kat.ph, bt-chat.com
+2. Right-click on any torrent link from the following sites: 
+    - kat.ph
+	- bt-chat.com
+	- swarmthehive.com
+	- zoink.it
+	- publichd.eu
 3. Right click on any summary page link (i.e. while viewing search results) in the following sites: torrentz.eu
-4. Right click on any link containing a torrent info hash
+4. Right click on any link (magnet or http/s) containing a torrent info hash (currently only 40 byte hex encoded hashes supported)
 
 
 

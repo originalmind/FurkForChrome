@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="style/common.css" />
+    <link rel="stylesheet" type="text/css" href="style/panel.css" />
+</head>
+<body>
+    <header>
+        <img src="images/icon48.png" />
+        <h1>Furk for Chrome</h1>
+        <nav id="menu">
+            <a href="#" id="showFinished" class="showMenu">My Finished Files</a> |
+            <a href="#" id="showActive" class="showMenu">My Downloads</a>
+        </nav>
+    </header>
+    <div id="content">
+        <div id="finished">
+            <h2>Finished</h2>
+            <div id="finished-list"></div>
+        </div>
+        <div id="active">
+            <h2>Active</h2>
+            <div id="active-list"></div>
+        </div>
+        <div id="spinner" class="spinner">
+            <div id="spinnerMessage">&nbsp;</div>
+        </div>
+    </div>
+    <footer>
+        <nav id="extlinks">
+            Go to Furk: 
+            <a href="https://www.furk.net/users/files/finished" target="_blank">All Finished Files</a>
+        </nav>
+    </footer>
+    <script src="extlib/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="lib/lib.js" type="text/javascript"></script>
+    <script src="lib/furkAPI.js" type="text/javascript"></script>
+    <script src="lib/furkForChrome.js" type="text/javascript"></script>
+    <script src="lib/panel.js" type="text/javascript"></script>
+</body>
+</html>

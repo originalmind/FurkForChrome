@@ -1,0 +1,54 @@
+﻿body
+{
+    background: #dbd9d9;
+}
+
+img
+{
+    margin: 5px;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+
+#options {
+    font-family: 'Pontano Sans', sans-serif;
+    width: 50%;
+    margin: 20px 25%;
+    float: left;
+}
+
+#options #header {
+    display: block;
+    clear: both;
+}
+
+#options #header h1 {
+    float: left;
+}
+
+#options #header img {
+    float: left;
+}
+
+#options #content {
+    float: right;
+    clear: right;
+}
+
+#options #footer {
+    float: left;
+    clear: both;
+}
+
+#options #footer #controls {
+    width: 100%;
+    text-align: right;
+}
+
+.vignette {
+    background: white;
+    margin: 40px auto 20px auto;
+    padding: 6px;
+    -webkit-border-radius: 6px;
+    -webkit-box-shadow: 2px 2px 6px 1px #999;
+}

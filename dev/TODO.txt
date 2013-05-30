@@ -1,0 +1,9 @@
+﻿* Fix init bug with panel
+* Update jquery
+* See if I can improve sorting in panel
+* Look at login issue
+* Create 1.3 tag in bitbucket
+* Sync to github
+* Complete 1.4
+	- create 1.4 tag
+	- sync to github

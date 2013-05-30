@@ -63,34 +63,42 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include=".gitattributes" />
-    <None Include="manifest.json" />
-    <Content Include="background.html" />
-    <None Include="dev\jquery-1.7.2-vsdoc.js" />
-    <Content Include="ChangeLog.txt" />
-    <Content Include="extlib\base32.js" />
-    <Content Include="extlib\jquery-1.7.2.min.js" />
-    <Content Include="lib\options.js" />
+    <Content Include="build\package.bat" />
+    <Content Include="packages\FurkForChrome.crx" />
+    <None Include="src\manifest.json" />
+    <Content Include="build\excluded-files.txt" />
+    <Content Include="dev\TODO.txt" />
+    <Content Include="src\background.html" />
+    <None Include="src\dev\jquery-1.7.2-vsdoc.js" />
+    <Content Include="doc\ChangeLog.txt" />
+    <Content Include="src\extlib\base32.js" />
+    <Content Include="src\extlib\jquery-1.8.3.min.js" />
+    <Content Include="src\images\icon19.png" />
+    <Content Include="src\images\icon38.png" />
+    <Content Include="src\lib\base32.js" />
+    <Content Include="src\lib\options.js" />
     <Content Include="LICENCE.txt" />
-    <Content Include="options.html" />
-    <Content Include="images\icon128.png" />
-    <Content Include="images\icon16.png" />
-    <Content Include="images\icon48.png" />
-    <Content Include="images\loader.gif" />
-    <Content Include="images\page-action-dl-19.png" />
-    <Content Include="lib\furkForChrome.js" />
-    <Content Include="lib\furkAPI.js" />
-    <Content Include="lib\lib.js" />
-    <Content Include="lib\panel.js" />
-    <Content Include="dev\chrome-api-vsdoc.js" />
-    <Content Include="panel.html" />
-    <Content Include="Roadmap.txt" />
-    <Content Include="style\style.css" />
-    <None Include="packages\FurkForChrome.crx" />
+    <Content Include="src\options.html" />
+    <Content Include="src\images\icon128.png" />
+    <Content Include="src\images\icon16.png" />
+    <Content Include="src\images\icon48.png" />
+    <Content Include="src\images\loader.gif" />
+    <Content Include="src\images\page-action-dl-19.png" />
+    <Content Include="src\lib\furkForChrome.js" />
+    <Content Include="src\lib\furkAPI.js" />
+    <Content Include="src\lib\lib.js" />
+    <Content Include="src\lib\panel.js" />
+    <Content Include="src\dev\chrome-api-vsdoc.js" />
+    <Content Include="src\panel.html" />
+    <Content Include="doc\Roadmap.txt" />
+    <Content Include="src\style\common.css" />
+    <Content Include="src\style\options.css" />
+    <Content Include="src\style\panel.css" />
     <Content Include="README.markdown" />
+    <Content Include="src\style\font\PontanoSans-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="style\font\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

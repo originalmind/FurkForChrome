@@ -1,0 +1,30 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Furk For Chrome™",
+  "version": "1.4",
+  "description": "furk.net or zzlbox.com cloud storage service productivity extension for the Google Chrome™ web browser.",
+  "icons": {
+        "16":  "images/icon16.png",
+        "48":  "images/icon48.png",
+        "128": "images/icon128.png"
+  },
+  "permissions": [
+    "contextMenus",	"notifications", "tabs", "webRequest", "webNavigation",
+    "http://api.furk.net/",
+	"https://www.furk.net/",
+    "http://*/*", 
+    "https://*/*"
+  ],
+  "background": {
+	"page": "background.html"
+  },
+  "options_page": "options.html",
+  "browser_action": {
+	"default_icon": {
+		"19": "images/icon19.png",
+		"38": "images/icon38.png"
+	},
+	"default_title": "Furk for Chrome™",
+	"default_popup": "panel.html"
+  }
+}

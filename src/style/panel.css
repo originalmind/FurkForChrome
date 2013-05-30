@@ -1,0 +1,61 @@
+﻿html {
+    color: #fff;
+    font-family: 'Open sans',sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 800px;
+}
+
+body
+{
+    min-width: 400px;
+    overflow-x: hidden;
+    background: #222;
+}
+
+a {
+    color: #0094ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+header  {
+    height: 48px;
+    clear:both;
+    width: 100%;
+    margin: 0 0 4px 0;
+}
+
+header img, header h1 {
+    float:left;
+    margin:0;
+}
+
+header nav {
+    float: right;
+    font-size: 14px;
+}
+
+#content {
+    float: left;
+}
+
+#finished
+{
+    display: none;
+}
+
+#action
+{
+    display: none;
+}
+
+footer {
+    border-top: 1px solid #edeaea;
+    float: left;
+    width: 100%;
+    clear: both;
+}

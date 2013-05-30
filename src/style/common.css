@@ -1,0 +1,10 @@
+﻿#spinner {
+    display: none;
+}
+
+#spinnerMessage {
+    background: url("../images/loader-blackbg.gif") 0 0 no-repeat;
+    padding-left: 40px;
+    line-height: 40px;
+    vertical-align: baseline;
+}

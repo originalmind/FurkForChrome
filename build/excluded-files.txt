@@ -1,0 +1,10 @@
+\.git\
+\.svn\
+\obj\
+\bin\
+\dev\
+\Properties\
+FurkForChrome.csproj
+FurkForChrome.csproj.user
+FurkForChrome.vs11.suo
+FurkForChrome.sln
