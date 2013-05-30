@@ -14,11 +14,17 @@ INSTALLATION as unpacked extension
 
 INSTALLATION as packed extension
 --------------------------------
+METHOD 1:
 1. Download latest ZIP from https://github.com/originalmind/FurkForChrome/tags
 2. Unpack to your choice of location.
 3. Navigation to location, and then packages\ directory
-4. Drag .CRX file into Google Chrome window (double-clicking on the .CRX file will not work due to Chrome restrictions.)
+4. Drag .CRX file into Google Chrome extensions window (double-clicking on the .CRX file will not work due to Chrome restrictions.) 
+To open the extensions window, type 'chrome://extensions/' in the address bar, or go via Tools -> Extensions.
 
+METHOD 2:
+1. Download the package file directly from GitHub here: https://github.com/originalmind/FurkForChrome/blob/master/packages/FurkForChrome.crx
+You MUST click on View Raw to download the file, otherwise it will be corrupt.
+2. Drag .CRX file into Google Chrome extensions window (see above.)
 
 
 
