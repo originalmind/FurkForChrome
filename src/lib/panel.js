@@ -1,5 +1,5 @@
 ﻿/// <reference path="dev/chrome-api-vsdoc.js"/>
-/// <reference path="dev/jquery-1.7.1-vsdoc.js"/>
+/// <reference path="dev/jquery-2.0.1-vsdoc.js"/>
 /*
 * Browser action panel
 */
@@ -153,7 +153,7 @@ var FurkForChromePanel = (function () {
             FurkForChromePanel.show();
 
             $("#active-list").empty();
-            FurkAPI.getTorrents(null, null, showActiveList);
+            FurkAPI.getDownloads(null, showActiveList);
 
             $("#active").show();
             $("#finished").hide();

@@ -5,6 +5,8 @@
 * Started work on base32 hash decoding (WIP)
 * Added links to last 10 finished files to browser action panel (WIP)
 * Updated manifest.json
+* Fixed bug which did not allow use of extension without API key (GitHub Issue: https://github.com/originalmind/FurkForChrome/issues/1)
+* updated jquery to 2.0.1 (including dev/*.vsdoc)
 
 ===========================================================
 1.3

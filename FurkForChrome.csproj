@@ -69,10 +69,10 @@
     <Content Include="build\excluded-files.txt" />
     <Content Include="dev\TODO.txt" />
     <Content Include="src\background.html" />
-    <None Include="src\dev\jquery-1.7.2-vsdoc.js" />
     <Content Include="doc\ChangeLog.txt" />
+    <None Include="src\dev\jquery-2.0.1-vsdoc.js" />
     <Content Include="src\extlib\base32.js" />
-    <Content Include="src\extlib\jquery-1.8.3.min.js" />
+    <Content Include="src\extlib\jquery-2.0.1.min.js" />
     <Content Include="src\images\icon19.png" />
     <Content Include="src\images\icon38.png" />
     <Content Include="src\lib\base32.js" />

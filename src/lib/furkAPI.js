@@ -14,16 +14,12 @@
     }
 
     /// Privileged methods
-    // Send request to API
-    //this.spawnRequest = function(method, url, async, callback) {
-    //    return sendRequest(method, url, async, callback);
-    //}
 
     // Build API REST URL
     this.apiUrl = function (endPoint) {
         var furkApiKey = localStorage["furkForChrome_apiKey"];
         if (!furkApiKey) {
-            return "http://api.furk.net/api/" + endPoint + "?";
+            return "https://www.furk.net/api/" + endPoint + "?";
         } else {
             return "http://api.furk.net/api/" + endPoint + "?api_key=" + furkApiKey;
         }
@@ -77,7 +73,7 @@
         addToFurk: function (link, onLoadCallBack) {
             var req = new XMLHttpRequest();
 
-            var apiCall = apiUrl("add_tor");
+            var apiCall = apiUrl("dl/add");
 
             if (link.hash === undefined) {
                 //apiCall += "url=" + link.url;
@@ -131,19 +127,14 @@
                                     onLoadCallBack);
 
         },
-        getTorrents: function (id, finishedDate, onLoadCallBack) {
+        getDownloads: function (id, onLoadCallBack) {
 
-            var apiCall = apiUrl("get_tors");
+            var apiCall = apiUrl("dl/get");
 
             if (id !== null) {
                 // TODO: fix this
 //                apiCall += "id=" + id;
                 apiCall = appendApiParam(apiCall, "id", id);
-            }
-
-            if (finishedDate !== null) {
-                //                apiCall += "finish_dt_gt=" + hash;
-                apiCall = appendApiParam(apiCall, "finish_dt_gt", finishedDate);
             }
 
             var req = sendRequest("GET",

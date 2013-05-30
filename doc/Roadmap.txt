@@ -1,12 +1,8 @@
 Furk for Chrome Roadmap
 ----------------------------
 
-1.4:
-* Removed non-compliant URLs
-* Panel alpha version - show last 10 Finished/Active files
-* Update jquery to 2.0
-
-Future 1.4+:
+1.5+:
 * Auto-load Furk API key
 * Detect base32 torrent hashes
 * More functionality in notification popup
+* Complete panel
