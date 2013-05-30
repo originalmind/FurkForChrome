@@ -16,7 +16,6 @@
                     '*://torrentz.in/*',
                     'http://www.swarmthehive.com/d/*',
                     'magnet:?xt=urn:btih:*',
-                    'http://re.zoink.it/*',
                     'http://publichd.eu/index.php?page=torrent-details&id=*'
                     ];
         },

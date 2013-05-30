@@ -1,7 +1,0 @@
-Furk for Chrome Roadmap
-----------------------------
-
-Future 1.4+:
-* Auto-load Furk API key
-* Detect base32 torrent hashes
-* More functionality in notification popup

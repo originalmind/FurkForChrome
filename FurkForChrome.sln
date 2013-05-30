@@ -4,10 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurkForChrome", "FurkForChrome.csproj", "{85926224-18AA-4217-900B-BE12AE27FBBE}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-		Svn-Managed = True
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
