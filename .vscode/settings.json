@@ -1,0 +1,33 @@
+{
+  "files.exclude": {
+    "Properties/": "explorerExcludedFiles",
+    "bin/": "explorerExcludedFiles",
+    ".svn/": "explorerExcludedFiles",
+    "Thumbs.db": "explorerExcludedFiles",
+    "*.obj": "explorerExcludedFiles",
+    "*.exe": "explorerExcludedFiles",
+    "*.pdb": "explorerExcludedFiles",
+    "*.user": "explorerExcludedFiles",
+    "*.aps": "explorerExcludedFiles",
+    "*.pch": "explorerExcludedFiles",
+    "*.vspscc": "explorerExcludedFiles",
+    "*_i.c": "explorerExcludedFiles",
+    "*_p.c": "explorerExcludedFiles",
+    "*.ncb": "explorerExcludedFiles",
+    "*.suo": "explorerExcludedFiles",
+    "*.tlb": "explorerExcludedFiles",
+    "*.tlh": "explorerExcludedFiles",
+    "*.bak": "explorerExcludedFiles",
+    "*.cache": "explorerExcludedFiles",
+    "*.ilk": "explorerExcludedFiles",
+    "*.log": "explorerExcludedFiles",
+    "[Bb]in": "explorerExcludedFiles",
+    "[Dd]ebug*/": "explorerExcludedFiles",
+    "*.lib": "explorerExcludedFiles",
+    "*.sbr": "explorerExcludedFiles",
+    "obj/": "explorerExcludedFiles",
+    "[Rr]elease*/": "explorerExcludedFiles",
+    "_ReSharper*/": "explorerExcludedFiles",
+    "[Tt]est[Rr]esult*": "explorerExcludedFiles"
+  }
+}
